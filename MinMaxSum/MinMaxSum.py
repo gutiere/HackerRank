@@ -3,9 +3,9 @@
 # Date: 2/19/17
 
 # Algorithm
-# 1) Record indices of l and s values.
-# 2) Print sum of numbers without the l index.
-# 3) Print sum of numbers without the s idex.
+# 1) Record indices of largest and smallest values.
+# 2) Print sum of numbers without the largest index.
+# 3) Print sum of numbers without the smallest idex.
 
 def main():
     numbers = [int(x) for x in raw_input().split(" ")] # List elements
