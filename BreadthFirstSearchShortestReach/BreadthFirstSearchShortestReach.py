@@ -34,11 +34,23 @@ def main():
 
         # Navigate the graph, starting at the start node, branching out.
         while len(queue) != 0:
+
+            # Get the next node in the queue.
             current = queue.pop(0)
+
+            # Go through all the connecting edges of the current node.
             for node in nodes[current - 1].edges:
+
+                # Not including already visited nodes.
                 if (node.id not in visited):
+
+                    # Add cost to get to this node
                     node.value = nodes[current - 1].value + 6
+
+                    # Add this node to the queue for branching.
                     queue.append(node.id)
+
+                    # This node is now visited.
                     visited.append(node.id)
 
         # Print total edge costs to each node other than the starting node.
