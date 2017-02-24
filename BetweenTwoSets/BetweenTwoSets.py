@@ -4,8 +4,8 @@
 
 # Algorithm
 # 1) Find smallest element of 16, this is the upper bound to possible x.
-# 2)
-
+# 2) For all possible values of x, find the valid conditions.
+# 3) Increment counter when valid value of x is found.
 
 def main():
     # Get input
@@ -41,7 +41,6 @@ def main():
                 counter += 1
 
     print(counter)
-
 
 if __name__ == "__main__":
     main()
