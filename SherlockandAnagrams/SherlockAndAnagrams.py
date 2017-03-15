@@ -4,9 +4,9 @@
 
 # Algorithm
 # 1) Find all substrings through nested for loop.
-# 2) Record total anagram equivelencies in dictionary.
-# 3) Calculate total pairs per total anagram equivelencies.
-# 4) Sum all pairs.
+# 2) Record total anagram recurrences in dictionary.
+# 3) Calculate total anagram pairs per total anagram recurrence.
+# 4) Sum all anagram pairs.
 
 def main():
 
