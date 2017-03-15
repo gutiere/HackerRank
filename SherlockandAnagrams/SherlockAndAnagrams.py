@@ -4,7 +4,7 @@
 
 # Algorithm
 # 1) Find all substrings through nested for loop.
-# 2) Record total anagram recurrences in dictionary.
+# 2) Record total anagram recurrences in dictionary. 
 # 3) Calculate total anagram pairs per total anagram recurrence.
 # 4) Sum all anagram pairs.
 
